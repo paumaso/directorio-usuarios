@@ -2,12 +2,6 @@
 
 Aplicación de ejemplo: un directorio de usuarios construido con React + Vite + Tailwind CSS. Permite buscar usuarios, ver detalles en un modal y ofrece una interfaz responsiva estilo dashboard.
 
-## Capturas
-
-Agrega aquí capturas de pantalla o GIFs para mostrar la app en acción. Por ejemplo:
-
-![Demo](./public/demo-screenshot.png)
-
 ## Características
 
 - Búsqueda de usuarios por nombre.
@@ -75,19 +69,4 @@ Los archivos de salida estarán en la carpeta `dist`.
 	- `hooks/` - hooks personalizados (`useUsers`)
 	- `types/` - definiciones TypeScript
 
-## Personalización rápida
 
-- Cambia colores y espaciados editando las clases de Tailwind en los componentes.
-- Añade capturas en `public/` y actualiza la ruta en este README.
-
-## Contribuir
-
-Pull requests welcome. Para cambios mayores, abre un issue primero para discutir lo que quieres cambiar.
-
-## Licencia
-
-Distribuido bajo la licencia MIT. (Añade un `LICENSE` si lo deseas.)
-
----
-
-Si quieres, puedo añadir un `demo-screenshot.png` de ejemplo, mejorar la sección de despliegue (GitHub Pages / Vercel) o añadir badges al principio del README.
