@@ -35,7 +35,6 @@ export function UsersPage() {
     return matchesSearch && matchesCity && matchesCompany
   })
 
-  // Cerrar filtros al hacer click fuera
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (showFilters && filtersRef.current && !filtersRef.current.contains(event.target as Node)) {

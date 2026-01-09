@@ -1,56 +1,93 @@
 # directorio-usuarios
 
-Una aplicación de directorio de usuarios construida con **React** y **Vite**. Permite buscar usuarios, filtrar por ciudad o empresa y ver detalles de cada usuario en un modal.
+Aplicación de ejemplo: un directorio de usuarios construido con React + Vite + Tailwind CSS. Permite buscar usuarios, ver detalles en un modal y ofrece una interfaz responsiva estilo dashboard.
+
+## Capturas
+
+Agrega aquí capturas de pantalla o GIFs para mostrar la app en acción. Por ejemplo:
+
+![Demo](./public/demo-screenshot.png)
 
 ## Características
 
-- Buscar usuarios por nombre.
-- Filtrar usuarios por ciudad o empresa.
-- Contador de filtros activos.
-- Vista de detalle de usuario en modal.
-- Interfaz limpia y responsiva.
+- Búsqueda de usuarios por nombre.
+- Vista en tarjetas responsivas (grid).
+- Modal con detalles del usuario.
+- Diseño con Tailwind CSS y React Icons.
 
 ## Tecnologías
 
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [React Icons](https://react-icons.github.io/react-icons/)
+- React
+- Vite
+- Tailwind CSS
+- React Icons
 - TypeScript
+
+## Requisitos
+
+- Node.js 16+ (recomendado)
+- npm o yarn
 
 ## Instalación
 
-1. Clonar el repositorio:
+Clona el repositorio y entra en la carpeta del proyecto:
 
 ```bash
 git clone <URL_DEL_REPOSITORIO>
-Entrar en la carpeta del proyecto:
-
-bash
-Copiar código
 cd nombre-del-proyecto
-Instalar dependencias:
+```
 
-bash
-Copiar código
+Instala dependencias:
+
+```bash
 npm install
-o si usas Yarn:
-
-bash
-Copiar código
+# o
 yarn
-Ejecución en desarrollo
-Para levantar el proyecto en modo desarrollo:
+```
 
-bash
-Copiar código
+## Desarrollo
+
+Inicia el servidor de desarrollo:
+
+```bash
 npm run dev
-Vite mostrará la URL local (por defecto http://localhost:5173) para ver la aplicación.
+# o
+yarn dev
+```
 
-Build para producción
-Para generar una versión lista para producción:
+Abre la URL que Vite muestre (por defecto http://localhost:5173).
 
-bash
-Copiar código
+## Build para producción
+
+```bash
 npm run build
-Los archivos se generarán en la carpeta dist.
+# o
+yarn build
+```
+
+Los archivos de salida estarán en la carpeta `dist`.
+
+## Estructura del proyecto
+
+- `src/` - código fuente
+	- `components/` - componentes React reutilizables (`UserCard`, `UserModal`, etc.)
+	- `pages/` - vistas principales (`UsersPage`)
+	- `hooks/` - hooks personalizados (`useUsers`)
+	- `types/` - definiciones TypeScript
+
+## Personalización rápida
+
+- Cambia colores y espaciados editando las clases de Tailwind en los componentes.
+- Añade capturas en `public/` y actualiza la ruta en este README.
+
+## Contribuir
+
+Pull requests welcome. Para cambios mayores, abre un issue primero para discutir lo que quieres cambiar.
+
+## Licencia
+
+Distribuido bajo la licencia MIT. (Añade un `LICENSE` si lo deseas.)
+
+---
+
+Si quieres, puedo añadir un `demo-screenshot.png` de ejemplo, mejorar la sección de despliegue (GitHub Pages / Vercel) o añadir badges al principio del README.
